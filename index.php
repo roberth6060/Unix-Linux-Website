@@ -3,9 +3,8 @@ $path = "./";
 $page = "Home";
 include $path."assets/inc/header.php";
 ?>
-
-<div id="container">
-    <h2>Group project at RIT Croatia</h2>
+<div id="top" id="container">
+    <h2>Unix/Linux: Essential Guide</h2>
     <p>This project</p>
 </div>
 <?php

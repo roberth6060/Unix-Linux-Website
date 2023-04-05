@@ -6,8 +6,8 @@ nav {
   text-align: center;
   padding: 5px;
   font-size: 1.1em;
-  background-color: var(--palette-bg-dark);
-  color: white;
+
+  background-color: var(--palette-nav-clr);
   z-index: 20;
 }
 nav .logo {
@@ -22,7 +22,7 @@ nav .logo img {
 nav .logo span {
   font-family: "One Piece", sans-serif;
   font-size: 1.1em;
-  color: white;
+  color: var(--palette-bg-dark) !important;
   padding-left: 10px;
   top: 10px;
 }
@@ -45,14 +45,14 @@ nav .menu li a {
   width: 100%;
   height: 100%;
   align-items: center;
-  color: #ffffff;
+  color: var(--palette-bg-dark);
 }
 nav .menu li:hover:not(.active) {
-  background-color: var(--palette-main-btn);
+  background-color: var(--palette-bg-light);
   transition: 0.2s;
 }
 nav .menu .active {
-  background-color: var(--palette-active-clr);
+  background-color: var(--palette-nav-clr);
   transition: 0.2s;
 }
 nav .menu-button-container {
@@ -103,7 +103,7 @@ nav .dropdown {
   padding: 15px;
   position: absolute;
   width: 200px;
-  background-color: var(--palette-bg-dark);
+  background-color: var(--palette-nav-clr);
   top: 32px;
   right: 0;
   z-index: 7;
@@ -127,7 +127,6 @@ nav .individual:hover .dropdown {
     display: flex;
     flex-direction: column;
     position: absolute;
-    background-color: #79bd8e;
     width: 160px;
     top: 50px;
     right: 0;

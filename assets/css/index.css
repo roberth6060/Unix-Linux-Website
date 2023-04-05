@@ -14,7 +14,8 @@
   --palette-main-btn: #79745c;
   --palette-active-clr: #704e2e;
   --palette-bg-dark: #49297e;
-  --palette-bg-light: #e0e2e2;
+  --palette-bg-light: #a9aaaa;
+  --palette-nav-clr: #e0e2e2;
 }
 
 /**** GLOBAL STYLING ****/
@@ -161,67 +162,4 @@ th {
   justify-content: center;
   align-items: center;
   min-height: 500px;
-}
-
-#location-section {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-/* MAP */
-.map-container {
-  text-align: center;
-  width: 100vw;
-  /* height: 100vh; */
-  position: relative;
-  z-index: 1;
-  position: relative;
-}
-#map {
-  position: relative;
-  /* height: 100%; */
-  min-height: auto;
-  margin: auto;
-  width: 70%;
-  height: 42rem;
-  min-height: auto;
-  margin-bottom: 4rem;
-}
-
-#country-count {
-  font-size: 1.1em;
-  font-weight: bolder;
-  color: var(--map-important-clr);
-}
-
-.leaflet-popup-content {
-  color: black;
-}
-
-.map-click {
-  display: flex;
-  align-items: center;
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  background-color: var(--palette-main-bg);
-  color: #f7f6f6 !important;
-  padding: 4px;
-}
-.map-click:hover {
-  background-color: var(--map-important-clr);
-}
-
-.map-click:active {
-  top: 1px;
-}
-
-.popup-instruction {
-  color: var(--map-important-clr);
-  font-weight: bolder;
-}
-
-.leaflet-popup-content-wrapper {
-  text-align: center !important;
 }

@@ -4,12 +4,12 @@
 <head>
     <title>Unix/Linux</title>
     <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
-    <script type="text/javascript" src="assets/script/pizza.js"></script>
+    <script type="text/javascript" src="assets/script/index.js"></script>
 </head>
 
 <body>
-    <nav>
-        <a href="../index.html" class="logo">
+    <nav id="nav">
+        <a href="#" class="logo">
             <img src="" alt="logo" />
             <span>Travel Blog Website</span>
         </a>
@@ -18,15 +18,15 @@
             <span class="menu-button"></span>
         </label>
         <ul class="menu">
-            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li>
-                <a href="./about.html">About</a>
+                <a href="#">About</a>
             </li>
             <li class="excercises">
                 <a href="#">Unix</a>
                 <ul class="dropdown">
                     <li>
-                        <a href="./document.html">The Essential Guide </a>
+                        <a href="#">The Essential Guide </a>
                     </li>
                 </ul>
             </li>
@@ -34,10 +34,10 @@
                 <a href="#">Distributions</a>
                 <ul class="dropdown">
                     <li>
-                        <a href="./document.html">Beginner-Friendly</a>
+                        <a href="#">Beginner-Friendly</a>
                     </li>
                     <li>
-                        <a href="./references.html">Distribution for Servers</a>
+                        <a href="#">Distribution for Servers</a>
                     </li>
                 </ul>
             </li>
@@ -45,13 +45,13 @@
                 <a href="#">Security</a>
                 <ul class="dropdown">
                     <li>
-                        <a href="./document.html">Linux Security Principles</a>
+                        <a href#">Linux Security Principles</a>
                     </li>
                     <li>
-                        <a href="./references.html">Security Requirements</a>
+                        <a href="#">Security Requirements</a>
                     </li>
                     <li>
-                        <a href="./references.html">Enemy</a>
+                        <a href="#">Enemy</a>
                     </li>
                 </ul>
             </li>
@@ -59,22 +59,22 @@
                 <a href="#">Installation</a>
                 <ul class="dropdown">
                     <li>
-                        <a href="./document.html">Install Linux on Windows</a>
+                        <a href="#">Install Linux on Windows</a>
                     </li>
                     <li>
-                        <a href="./references.html">Bootable Linux USB</a>
+                        <a href="#">Bootable Linux USB</a>
                     </li>
                     <li>
-                        <a href="./references.html">Install App on Linux OS</a>
+                        <a href="#">Install App on Linux OS</a>
                     </li>
                     <li>
-                        <a href="./references.html">Ubuntu Software Center</a>
+                        <a href="#">Ubuntu Software Center</a>
                     </li>
                     <li>
-                        <a href="./references.html">APT Installation</a>
+                        <a href="#">APT Installation</a>
                     </li>
                     <li>
-                        <a href="./references.html">Synaptic Package Manager</a>
+                        <a href="#">Synaptic Package Manager</a>
                     </li>
                 </ul>
             </li>
@@ -82,10 +82,10 @@
                 <a href="#">Resources</a>
                 <ul class="dropdown">
                     <li>
-                        <a href="./document.html">References</a>
+                        <a href="#">References</a>
                     </li>
                     <li>
-                        <a href="./references.html">Download Links</a>
+                        <a href="#">Download Links</a>
                     </li>
                 </ul>
             </li>
