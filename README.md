@@ -1,4 +1,4 @@
-## UNIX/LINUX: The Essential Guide 
+## UNIX/LINUX: The Essential Guide
 
 Welcome to our Unix tutorial project! If you're new to Unix, you might be feeling a bit overwhelmed by all the commands, scripts, and tools you need to learn. But don't worry, we're here to help! We've broken down the concepts into easy-to-understand sections.
 
@@ -18,7 +18,7 @@ Our website is built using the following tech stack:
 
 To launch our repository, please follow the instructions below:
 
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine (git clone https://github.com/roberth6060/Unix-Linux-Website.git).
 2. Make sure you have a web server installed on your machine, such as Apache or Nginx.
 3. Move the cloned repository to your web server's document root directory.
 4. Make sure PHP is installed on your machine and is configured to work with your web server.
