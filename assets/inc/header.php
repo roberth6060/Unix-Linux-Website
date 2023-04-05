@@ -17,13 +17,13 @@
             <span class="menu-button"></span>
         </label>
         <ul class="menu">
-            <li class="btn-gray" class="btn-gray "><a href="#">Home</a></li>
+            <li class="btn-gray" class="btn-gray "><a href="./index.php">Home</a></li>
             <li class="btn-gray" class="btn-gray "><a href="#">Team</a></li>
             <li class="btn-gray">
-                <a href="#">About</a>
+                <a href="./about.php">About</a>
             </li>
             <li class="btn-gray">
-                <a href="#">Unix</a>
+                <a href="./unix.php">Unix</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
                         <a href="#">The Essential Guide </a>
@@ -31,18 +31,15 @@
                 </ul>
             </li>
             <li class="btn-gray excercises">
-                <a href="#">Distributions</a>
+                <a href="./tutorials.php">Tutorials</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
-                        <a href="#">Beginner-Friendly</a>
-                    </li>
-                    <li class="btn-gray">
-                        <a href="#">Distribution for Servers</a>
+                        <a href="#">UNIX tutorials</a>
                     </li>
                 </ul>
             </li>
             <li class="btn-gray excercises">
-                <a href="#">Security</a>
+                <a href="./securityLinux.php">Security</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
                         <a href#">Linux Security Principles</a>
@@ -56,8 +53,7 @@
                 </ul>
             </li>
             <li class="btn-gray excercises">
-
-                <a href="#">Installation</a>
+                <a href="./installation.php">Installation</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
                         <a href="#">Install Linux on Windows</a>
@@ -80,7 +76,7 @@
                 </ul>
             </li>
             <li class="btn-gray excercises">
-                <a href="#">Resources</a>
+                <a href="./reference.php">Resources</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
                         <a href="#">References</a>
@@ -92,3 +88,4 @@
             </li>
         </ul>
     </nav>
+    <div class="main-container">

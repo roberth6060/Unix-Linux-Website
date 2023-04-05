@@ -79,7 +79,8 @@ blockquote {
 }
 
 li {
-  list-style-type: none;
+  list-style-type: decimal;
+  text-align: start;
 }
 
 a {
@@ -144,7 +145,7 @@ th {
 .container {
   text-align: center;
   margin: auto;
-  width: 90vw;
+  width: 80vw;
   height: auto;
   min-height: auto;
   margin-bottom: 40px;
