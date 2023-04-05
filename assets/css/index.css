@@ -1,20 +1,227 @@
-/* CSS Document for Pizza Shop */
-/* Deb LaBelle  */
-body { 
-		color:#962709;
-		font-family: fantasy, serif;
-		background-color:#DBC28F;
-		}
-		
-#wrapper{
-	width:70%;
-	margin-left:auto;
-	margin-right:auto;
-	}
+/** FONT(S) **/
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:400,500|Roboto:400,700");
+
+/** LINKED CSS FILES **/
+@import "./navbar.css";
+/* @import "./blog.css";
+@import "./blogs.css";
+@import "./buttons.css";
+@import "./about.css";
+@import "./contact.css"; */
+
+:root {
+  --header-text-clr: #704e2e;
+  --palette-main-btn: #79745c;
+  --palette-active-clr: #704e2e;
+  --palette-main-bg: purple;
+  --map-important-clr: #cb2b3e;
+}
+
+/**** GLOBAL STYLING ****/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #f7f6f6;
+  position: relative;
+}
+hr {
+  width: 80%;
+}
+h1,
+h2 {
+  text-align: center;
+  color: var(--header-text-clr);
+}
+
+h1 {
+  font-size: 2.325rem;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "EB Garamond", serif;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+blockquote {
+  font-style: italic;
+  text-align: center;
+  width: 40rem;
+  height: auto;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.8em;
+}
+figure {
+  padding: 0;
+  margin: 0;
+}
+figcaption {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+}
+/* **Structure website height** */
+nav {
+  margin: 0 !important;
+  min-height: 5vh;
+}
+main {
+  margin: 0 !important;
+  min-height: 90vh;
+}
 
 footer {
-	font-size:.75em;
-	background-color:#445921;
-	color:#FFFFFF;
-	text-align:center;
-	}
+  margin: 0 !important;
+  display: flex;
+  min-height: 5vh;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #704e2e;
+  color: #f7f6f6;
+  font-size: 1.2rem;
+  bottom: 0;
+  margin-top: 2rem;
+}
+
+table,
+th {
+  margin: auto;
+  border-spacing: 1rem;
+  text-align: start;
+}
+
+.ref-container ul {
+  text-align: start;
+  width: 70vw;
+  margin: auto;
+
+  line-height: 2em;
+}
+.ref-container li {
+  list-style: square;
+}
+.main-container {
+  text-align: center;
+}
+.container {
+  text-align: center;
+  margin: auto;
+  width: 90vw;
+  height: auto;
+  min-height: auto;
+  margin-bottom: 40px;
+  position: relative;
+}
+.container .content {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+
+#location-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* MAP */
+.map-container {
+  text-align: center;
+  width: 100vw;
+  /* height: 100vh; */
+  position: relative;
+  z-index: 1;
+  position: relative;
+}
+#map {
+  position: relative;
+  /* height: 100%; */
+  min-height: auto;
+  margin: auto;
+  width: 70%;
+  height: 42rem;
+  min-height: auto;
+  margin-bottom: 4rem;
+}
+
+#country-count {
+  font-size: 1.1em;
+  font-weight: bolder;
+  color: var(--map-important-clr);
+}
+
+.leaflet-popup-content {
+  color: black;
+}
+
+.map-click {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--palette-main-bg);
+  color: #f7f6f6 !important;
+  padding: 4px;
+}
+.map-click:hover {
+  background-color: var(--map-important-clr);
+}
+
+.map-click:active {
+  top: 1px;
+}
+
+.popup-instruction {
+  color: var(--map-important-clr);
+  font-weight: bolder;
+}
+
+.leaflet-popup-content-wrapper {
+  text-align: center !important;
+}
