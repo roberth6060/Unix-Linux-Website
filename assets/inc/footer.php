@@ -1,6 +1,5 @@
+<footer>&copy; Copyright 2023, (Dys)functional</footer>
+</div>
+</body>
 
-       <footer>Ante's Pizza Shoppe &reg;</footer>
-       </div>
-       </body>
-
-       </html>
+</html>

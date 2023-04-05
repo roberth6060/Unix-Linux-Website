@@ -13,8 +13,8 @@
   --header-text-clr: #704e2e;
   --palette-main-btn: #79745c;
   --palette-active-clr: #704e2e;
-  --palette-main-bg: purple;
-  --map-important-clr: #cb2b3e;
+  --palette-bg-dark: #49297e;
+  --palette-bg-light: #e0e2e2;
 }
 
 /**** GLOBAL STYLING ****/
@@ -33,6 +33,7 @@ body {
 body {
   background-color: #f7f6f6;
   position: relative;
+  background-color: var(--palette-main-light);
 }
 hr {
   width: 80%;
@@ -112,8 +113,7 @@ footer {
   position: relative;
   align-items: center;
   justify-content: center;
-  background-color: #704e2e;
-  color: #f7f6f6;
+  color: black;
   font-size: 1.2rem;
   bottom: 0;
   margin-top: 2rem;
