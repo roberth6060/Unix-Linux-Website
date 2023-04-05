@@ -10,81 +10,81 @@
 <body>
     <nav id="nav">
         <a href="#" class="logo">
-            <img src="" alt="logo" />
-            <span>Travel Blog Website</span>
+            <img src="./assets/img/linux.svg" alt="logo" />
         </a>
         <input id="menu-toggle" type="checkbox" />
         <label for="menu-toggle" class="menu-button-container">
             <span class="menu-button"></span>
         </label>
         <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li>
+            <li class="btn-gray" class="btn-gray "><a href="#">Home</a></li>
+            <li class="btn-gray">
                 <a href="#">About</a>
             </li>
-            <li class="excercises">
+            <li class="btn-gray">
                 <a href="#">Unix</a>
                 <ul class="dropdown">
-                    <li>
+                    <li class="btn-gray">
                         <a href="#">The Essential Guide </a>
                     </li>
                 </ul>
             </li>
-            <li class="excercises">
+            <li class="btn-gray excercises">
                 <a href="#">Distributions</a>
                 <ul class="dropdown">
-                    <li>
+                    <li class="btn-gray">
                         <a href="#">Beginner-Friendly</a>
                     </li>
-                    <li>
+                    <li class="btn-gray">
                         <a href="#">Distribution for Servers</a>
                     </li>
                 </ul>
             </li>
-            <li class="excercises">
+            <li class="btn-gray excercises">
                 <a href="#">Security</a>
                 <ul class="dropdown">
-                    <li>
+                    <li class="btn-gray">
                         <a href#">Linux Security Principles</a>
                     </li>
-                    <li>
+                    <li class="btn-gray">
                         <a href="#">Security Requirements</a>
                     </li>
-                    <li>
+                    <li class="btn-gray">
                         <a href="#">Enemy</a>
                     </li>
                 </ul>
             </li>
-            <li class="excercises">
+            <li class="btn-gray excercises">
+
                 <a href="#">Installation</a>
                 <ul class="dropdown">
-                    <li>
+                    <li class="btn-gray">
                         <a href="#">Install Linux on Windows</a>
                     </li>
-                    <li>
+                    <li class="btn-gray">
                         <a href="#">Bootable Linux USB</a>
                     </li>
-                    <li>
+                    <li class="btn-gray">
                         <a href="#">Install App on Linux OS</a>
                     </li>
-                    <li>
+                    <li class="btn-gray">
                         <a href="#">Ubuntu Software Center</a>
                     </li>
-                    <li>
+                    <li class="btn-gray">
                         <a href="#">APT Installation</a>
                     </li>
-                    <li>
+                    <li class="btn-gray">
                         <a href="#">Synaptic Package Manager</a>
                     </li>
                 </ul>
             </li>
-            <li class="excercises">
+            <li class="btn-gray excercises">
                 <a href="#">Resources</a>
                 <ul class="dropdown">
-                    <li>
+                    <li class="btn-gray">
                         <a href="#">References</a>
                     </li>
-                    <li>
+                    <li class="btn-gray">
                         <a href="#">Download Links</a>
                     </li>
                 </ul>

@@ -16,8 +16,8 @@ nav .logo {
 }
 
 nav .logo img {
-  width: 1.5em;
-  color: aqua;
+  width: 2em;
+  color: #564946;
 }
 nav .logo span {
   font-family: "One Piece", sans-serif;
@@ -99,14 +99,41 @@ nav #menu-toggle:checked + .menu-button-container .menu-button::after {
   transform: rotate(-405deg);
 }
 nav .dropdown {
+  border: 1.8px solid var(--palette-border-clr);
   display: none;
   padding: 15px;
   position: absolute;
-  width: 200px;
+  width: 300px;
   background-color: var(--palette-nav-clr);
-  top: 32px;
+  top: 34px;
   right: 0;
   z-index: 7;
+}
+
+nav .dropdown::before {
+  position: absolute;
+  top: -8px;
+  right: 8px;
+  display: inline-block;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #dcdcdc;
+  border-left: 8px solid transparent;
+  border-bottom-color: var(--palette-border-clr);
+  content: "";
+}
+nav .dropdown::after {
+  position: absolute;
+  top: -6px;
+  right: 10px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid var(--palette-nav-clr);
+  border-left: 6px solid transparent;
+  content: "";
+}
+nav .dropdown .btn-gray {
+  min-width: 220px;
+  margin-bottom: 5px;
 }
 nav .dropdown li a {
   text-align: center !important;

@@ -23,5 +23,3 @@ To launch our repository, please follow the instructions below:
 3. Move the cloned repository to your web server's document root directory.
 4. Make sure PHP is installed on your machine and is configured to work with your web server.
 5. Access the website by entering the URL of the repository in your web browse
-
-Group project for Web and Mobile II.

@@ -3,9 +3,9 @@
 
 /** LINKED CSS FILES **/
 @import "./navbar.css";
+@import "./buttons.css";
 /* @import "./blog.css";
 @import "./blogs.css";
-@import "./buttons.css";
 @import "./about.css";
 @import "./contact.css"; */
 
@@ -16,6 +16,7 @@
   --palette-bg-dark: #49297e;
   --palette-bg-light: #a9aaaa;
   --palette-nav-clr: #e0e2e2;
+  --palette-border-clr: #8b8d8d;
 }
 
 /**** GLOBAL STYLING ****/
