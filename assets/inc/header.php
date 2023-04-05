@@ -18,6 +18,7 @@
         </label>
         <ul class="menu">
             <li class="btn-gray" class="btn-gray "><a href="#">Home</a></li>
+            <li class="btn-gray" class="btn-gray "><a href="#">Team</a></li>
             <li class="btn-gray">
                 <a href="#">About</a>
             </li>
