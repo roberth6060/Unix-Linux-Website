@@ -30,7 +30,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="btn-gray excercises">
+            <li class="btn-gray dropdownlist">
                 <a href="./tutorials.php">Tutorials</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
@@ -38,7 +38,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="btn-gray excercises">
+            <li class="btn-gray dropdownlist">
                 <a href="./securityLinux.php">Security</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
@@ -52,7 +52,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="btn-gray excercises">
+            <li class="btn-gray dropdownlist">
                 <a href="./installation.php">Installation</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
@@ -75,7 +75,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="btn-gray excercises">
+            <li class="btn-gray dropdownlist">
                 <a href="./reference.php">Resources</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
