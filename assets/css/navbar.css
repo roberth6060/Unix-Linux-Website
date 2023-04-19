@@ -29,10 +29,7 @@ nav .menu {
 nav .menu li {
   margin: auto;
   position: relative;
-  /* 
-  align-items: center;
-  justify-content: center; */
-  /* max-height: 2em; */
+  border: 1px solid var(--palette-border-clr);
 }
 nav .menu li a {
   display: inherit;

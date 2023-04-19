@@ -12,7 +12,7 @@
 :root {
   --palette-bg-light: #ffffff;
   --palette-main-clr: #011fde;
-  --palette-border-clr: #e9e9e9;
+  --palette-border-clr: #c3c3c3;
 }
 
 /**** GLOBAL STYLING ****/
@@ -41,7 +41,7 @@ hr {
 h1,
 h2 {
   text-align: center;
-  color: var(--header-text-clr);
+  color: var(--palette-bg-light);
 }
 
 h1 {
@@ -87,6 +87,7 @@ a {
 
 p {
   line-height: 1.8em;
+  background-color: var(--palette-bg-light);
 }
 figure {
   padding: 0;
@@ -99,17 +100,19 @@ figcaption {
 /* **Structure website height** */
 nav {
   margin: 0 !important;
-  min-height: 5vh;
 }
 main {
   margin: 0 !important;
-  min-height: 90vh;
+  /* min-height: 90vh; */
 }
 
 footer {
+  height: 2rem;
   position: fixed;
   display: grid;
   grid-template-columns: auto 591px;
+  justify-content: center;
+  align-items: center;
   width: 99.6%;
   bottom: 0;
   margin: 0;
@@ -117,8 +120,8 @@ footer {
   font-weight: 700;
   font-style: normal;
   background-color: var(--palette-main-clr);
-  color: white;
-  border: 1px solid var(--palette-bg-light);
+  color: white !important;
+  border: 1px solid var(--palette-border-clr);
   z-index: 1;
 }
 
@@ -168,5 +171,21 @@ th {
 
 .footLog {
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   color: #011fde;
+}
+
+.brdCrmbTrl {
+  color: var(--palette-bg-light) !important;
+  /* padding: 10px; */
+  padding-left: 20px;
+  margin-left: 149px;
+  border-left: 1px solid white;
+}
+
+.brdCrmbTrl a {
+  color: var(--palette-bg-light);
 }
