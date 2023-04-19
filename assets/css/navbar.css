@@ -97,6 +97,7 @@ nav .dropdown {
   top: 35px;
   right: 0;
   z-index: 7;
+  margin: auto;
 }
 
 nav .dropdown::before {
@@ -128,10 +129,12 @@ nav .dropdown li a {
   text-align: center !important;
 }
 nav .dropdownlist:hover .dropdown {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 nav .individual:hover .dropdown {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 nav .dropdownlist {
