@@ -1,0 +1,396 @@
+/* you'll notice a lot of absolute values (px), i just used that
+for easier control, if you are good with relative values
+that might be cleaner/easier to follow.
+responsiveness was very quickly done, can probably be improved
+*/
+
+body {
+    background-color: #011fde;
+    color: white;
+    font-family: "acumin-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 300;
+    /*this shows a minor error but thats how adobe fonts listed the code*/
+    margin: 2px;
+    border: 1px solid white;
+}
+
+/* beggining of header/nav section*/
+.header {
+    position: fixed;
+    display: grid;
+    grid-template-columns: auto 591px;
+    width: 99.7%;
+    top: 1px;
+    margin: 0;
+
+
+
+    justify-content: space-between;
+    font-family: "adaptive-mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+
+    background-color: white;
+    color: #011fde;
+    border-bottom: 1px solid #011fde;
+
+    z-index: 1;
+}
+
+.logo {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+/*nav*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+
+    background-color: #011fde;
+    color: white;
+    border: 1px solid white;
+
+}
+
+/*submenu*/
+nav>div {
+    display: block;
+    font-weight: 400;
+
+
+
+    border-left: 1px solid white;
+    position: relative;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+
+}
+
+nav>div:hover {
+    background-color: white;
+    color: #011fde;
+    border-left: 1px solid #011fde;
+
+}
+
+/*submenu item container*/
+nav>div>div {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+
+
+
+}
+
+nav>div:hover>div {
+
+    display: block;
+
+
+
+}
+
+/*submenu item, hopefully you won't need a 
+submenu item submenu because that'll look/code wild*/
+nav>div>div>div {
+
+    position: relative;
+    max-width: inherit;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    background-color: #011fde;
+    color: white;
+    border: 1px solid white;
+    border-top: none;
+}
+
+
+nav>div>div>div:hover {
+    background-color: white;
+    color: #011fde;
+
+}
+
+
+.pageHead {
+
+    margin-top: 30px;
+    /*trial and error for the fixed header/nav*/
+
+    display: grid;
+    grid-template-columns: auto 589px;
+    border-bottom: 1px solid white;
+
+
+
+}
+
+/*
+how we contain the page header
+*/
+.pageHead>div {
+    grid-column: 2;
+
+    /*
+        just played around with width until it was equal to nav, im sure there is a better way to do this.
+    */
+    background-color: white;
+    color: #011fde;
+
+
+
+
+}
+
+/* within page header container*/
+h1 {
+    display: block;
+    margin: 0;
+    margin-left: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "adaptive-mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    display: block;
+
+}
+
+.contentContainer {
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+.textContainer {
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+
+
+h2 {
+    display: block;
+    width: fit-content;
+    margin-top: 0;
+    margin-left: 0;
+
+    background-color: white;
+    color: #011fde;
+    padding: 5px;
+    font-family: "adaptive-mono", monospace;
+    font-weight: 700;
+    font-style: oblique;
+
+
+
+}
+
+p {
+    margin-top: 50px;
+    margin-left: 50px;
+    text-indent: 50px;
+}
+
+/*
+rules for right and left images
+*/
+.imageContainer1 {
+    display: grid;
+    grid-template-columns: auto 440px;
+
+}
+
+.imageContainer2 {
+    display: grid;
+    grid-template-columns: 440px auto;
+
+}
+
+
+figure {
+    position: relative;
+    margin: 0;
+    margin-right: 50px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+img {
+    position: relative;
+    margin: 5px;
+    max-width: 440px;
+    /**
+    max-width is determined by grid column of enclosing figure
+*/
+
+}
+
+figcaption {
+    background-color: white;
+    color: #011fde;
+    font-family: "adaptive-mono", monospace;
+    font-weight: 400;
+    padding: 5px;
+    padding-left: 10px;
+
+}
+
+ol {
+    counter-reset: my-counter;
+    list-style-type: none;
+}
+
+li {
+    display: block;
+    counter-increment: my-counter;
+    margin: 20px;
+    display: flex;
+    /* add display flex */
+    align-items: flex-start;
+    /* center items vertically */
+
+
+}
+
+li:before {
+
+    content: "[" counter(my-counter) "]";
+    font-family: "adaptive-mono", monospace;
+    font-weight: 700;
+    padding: 2px;
+
+
+    margin-right: 10px;
+    background-color: white;
+    color: #011fde;
+}
+
+.brdCrmbTrl {
+    padding: 10px;
+    padding-left: 20px;
+    margin-left: 149px;
+    /* this is just being fancy, obv you'd wanna
+    ditch this and border below in responsive */
+    border-left: 1px solid white;
+
+}
+
+a {
+    color: white;
+
+}
+
+/*
+    used on last content element to ensure space from fixed footer
+  */
+.last {
+    margin-bottom: 100px;
+}
+
+.footer {
+    position: fixed;
+    display: grid;
+    grid-template-columns: auto 591px;
+    width: 99.6%;
+    bottom: 0;
+    margin: 0;
+    justify-content: space-between;
+    font-family: "adaptive-mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+
+    background-color: #011fde;
+    color: white;
+    border: 1px solid white;
+    z-index: 1;
+
+}
+
+.footLog {
+    background-color: white;
+    color: #011fde;
+   
+}
+@media screen and (max-width:800px) {
+    body{
+        width:96vw;
+    }
+    .header{
+        grid-template-columns: auto;
+        width:96vw;
+        
+      
+
+    }
+    .logo{
+        border:1px solid #011fde;
+     
+    }
+    nav{
+        flex-direction: column;
+        width:96vw;
+      
+    }
+    nav>div{
+        border-left: none;
+        border-bottom: 1px solid white;
+    }
+    nav>div:hover{
+        background-color: #011fde;
+        color:white
+    }
+    nav>div>div{
+        position: static;/*im sure theres less ugly ways to do this, but its late*/
+    }
+    .contentContainer{
+       margin-left: 30px;
+       margin-right: 30px;
+       margin-bottom: 30px;
+    }
+    .imageContainer1,.imageContainer2{
+        grid-template-columns: auto;
+    }
+    figure{
+     
+        margin:50px
+    }
+    img{
+        max-width: 300px;
+    }
+    .pageHead{
+        grid-template-columns: auto;
+        max-width: 96vw;
+        margin-top: 200px;
+    }
+    .pageHead>div{
+        width: 96vw;
+    }
+    .footer {
+        grid-template-columns: auto;
+        width: 95.5vw;
+    }
+    .brdCrmbTrl{
+        margin: 0;
+        width: 95.5vw;
+        border: none;
+        border-bottom: 1px solid white;
+    }
+}
