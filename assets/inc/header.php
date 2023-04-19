@@ -31,10 +31,13 @@
                 </ul>
             </li>
             <li class="btn-gray dropdownlist">
-                <a href="./tutorials.php">Tutorials</a>
+                <a href="./tutorials.php">Educational Materials</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
                         <a href="#">UNIX tutorials</a>
+                    </li>
+                    <li class="btn-gray">
+                        <a href="./quiz.php">Quiz</a>
                     </li>
                 </ul>
             </li>
@@ -79,7 +82,7 @@
                 <a href="./reference.php">Resources</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
-                        <a href="#">References</a>
+                        <a href="./reference.php">References</a>
                     </li>
                     <li class="btn-gray">
                         <a href="#">Download Links</a>

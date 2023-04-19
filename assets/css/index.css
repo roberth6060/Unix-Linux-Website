@@ -46,15 +46,22 @@ h2 {
 }
 
 h1 {
-  font-size: 2.325rem;
   margin: 0;
   padding: 1rem 0;
 }
 
-h1,
+h1 {
+  margin: 25px 0;
+  font-size: 2.325rem;
+  font: Georgia, Serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 h2,
 h3 {
   font-family: "EB Garamond", serif;
+  text-align: start;
 }
 
 h2 {
@@ -87,7 +94,8 @@ a {
 }
 
 p {
-  line-height: 1.8em;
+  line-height: 2em;
+  text-align: start;
   background-color: var(--palette-bg-light);
 }
 figure {
@@ -109,14 +117,14 @@ main {
 
 footer {
   height: 2rem;
-  position: fixed;
+  /* position: fixed; */
   display: grid;
   grid-template-columns: auto 591px;
   justify-content: center;
   align-items: center;
   width: 99.6%;
   bottom: 0;
-  margin: 0;
+  margin-top: 5rem;
   justify-content: space-between;
   font-weight: 700;
   font-style: normal;
@@ -189,4 +197,36 @@ th {
 
 .brdCrmbTrl a {
   color: var(--palette-bg-light);
+}
+
+#page-wrap {
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#quiz input {
+  vertical-align: middle;
+}
+
+#quiz ol {
+  margin: 0 0 10px 20px;
+}
+
+#quiz ol li {
+  margin: 0 0 20px 0;
+}
+
+#quiz ol li div {
+  padding: 4px 0;
+}
+
+#quiz h3 {
+  font-size: 17px;
+  margin: 0 0 1px 0;
+  color: #666;
+}
+
+#results {
+  font: 44px Georgia, Serif;
 }
