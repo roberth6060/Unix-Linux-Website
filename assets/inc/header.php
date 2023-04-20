@@ -68,17 +68,35 @@
             </li>
             <li class="btn-gray" class="btn-gray "><a href="./quiz.php">Quiz</a></li>
             <li class="btn-gray dropdownlist">
-                <a href="./tutorials.php">tutorials</a>
+                <a href="./tutorials.php">Tutorials</a>
                 <ul class="dropdown">
-                    <li class="btn-gray">
-                        <a href="./tutorials.php">UNIX tutorials</a>
+                    <li class="btn-gray dropdownlist ">
+                        <a href="./tutorials.php">Unix</a>
+                        <ul class="dropdown">
+                            <li class="btn-gray">
+                                <a href="./tutorials.php">Example1</a>
+                            </li>
+                            <li class="btn-gray">
+                                <a href="./tutorials.php">Example2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="btn-gray dropdownlist">
+                        <a href="./tutorials.php">Linux</a>
+                        <ul class="dropdown">
+                            <li class="btn-gray">
+                                <a href="./tutorials.php">Example1</a>
+                            </li>
+                            <li class="btn-gray">
+                                <a href="./tutorials.php">Example2</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </li>
             <li class="btn-gray ">
                 <a href="./reference.php">References</a>
             </li>
-
         </ul>
     </nav>
     <section class="main-container">

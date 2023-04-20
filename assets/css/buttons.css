@@ -1,10 +1,5 @@
 .btn-gray {
   box-shadow: inset 0px 1px 0px 0px var(--palette-border-clr);
-  /* background: linear-gradient(
-    to bottom,
-    var(--palette-gradient-clr) 5%,
-    #f6f6f6 100%
-  ); */
   background-color: var(--palette-bg-light);
   border-radius: 1px;
   border: 1px solid #dcdcdc;
@@ -16,6 +11,7 @@
   font-weight: bold;
   text-decoration: none;
   text-shadow: 0px 1px 0px var(--palette-bg-light);
+  z-index: 2 !important;
 }
 
 .btn-gray a {
