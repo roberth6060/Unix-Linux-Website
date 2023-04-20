@@ -31,17 +31,6 @@
                 </ul>
             </li>
             <li class="btn-gray dropdownlist">
-                <a href="./tutorials.php">Educational Materials</a>
-                <ul class="dropdown">
-                    <li class="btn-gray">
-                        <a href="#">UNIX tutorials</a>
-                    </li>
-                    <li class="btn-gray">
-                        <a href="./quiz.php">Quiz</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="btn-gray dropdownlist">
                 <a href="./securityLinux.php">Security</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
@@ -79,16 +68,20 @@
                 </ul>
             </li>
             <li class="btn-gray dropdownlist">
-                <a href="./reference.php">Resources</a>
+                <a href="./tutorials.php">Educational Materials</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
-                        <a href="./reference.php">References</a>
+                        <a href="#">UNIX tutorials</a>
                     </li>
                     <li class="btn-gray">
-                        <a href="#">Download Links</a>
+                        <a href="./quiz.php">Quiz</a>
                     </li>
                 </ul>
             </li>
+            <li class="btn-gray ">
+                <a href="./reference.php">References</a>
+            </li>
+
         </ul>
     </nav>
-    <div class="main-container">
+    <section class="main-container">

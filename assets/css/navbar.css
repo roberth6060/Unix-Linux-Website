@@ -154,6 +154,11 @@ nav .dropdownlist::before {
 nav .btn-gray {
   z-index: 10;
 }
+
+.dropdownlist:active {
+  top: 0 !important;
+}
+
 @media only screen and (max-width: 992px) {
   nav {
     font-size: 1.01em;

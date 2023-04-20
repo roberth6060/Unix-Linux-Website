@@ -46,16 +46,12 @@ h2 {
 }
 
 h1 {
-  margin: 0;
-  padding: 1rem 0;
-}
-
-h1 {
-  margin: 25px 0;
   font-size: 2.325rem;
   font: Georgia, Serif;
   text-transform: uppercase;
   letter-spacing: 3px;
+  border-bottom: 1.8px solid var(--palette-border-clr);
+  padding: 1rem 0;
 }
 
 h2,
@@ -106,20 +102,12 @@ figcaption {
   color: rgba(0, 0, 0, 0.6);
   font-size: 12px;
 }
-/* **Structure website height** */
-nav {
-  margin: 0 !important;
-}
-main {
-  margin: 0 !important;
-  /* min-height: 90vh; */
-}
 
 footer {
   height: 2rem;
-  /* position: fixed; */
+  position: fixed;
   display: grid;
-  grid-template-columns: auto 591px;
+  grid-template-columns: auto 49.8%;
   justify-content: center;
   align-items: center;
   width: 99.6%;
@@ -141,32 +129,46 @@ th {
   text-align: start;
 }
 
-.ref-container ul {
-  text-align: start;
-  width: 70vw;
-  margin: auto;
+li a {
+  white-space: normal;
+  float: left;
+  width: 100%;
+  height: auto;
+  word-wrap: break-word;
+}
 
-  line-height: 2em;
-}
-.ref-container li {
-  list-style: square;
-}
 .main-container {
-  text-align: center;
-}
-.container {
-  text-align: center;
   margin: auto;
-  width: 80vw;
+}
+
+.page-layout {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.page-layout .main-side {
+  background-color: var(--palette-main-clr);
+  color: var(--palette-bg-light);
+  padding: 1rem;
+  line-height: 2rem !important;
+}
+
+.page-layout .secondary-side {
+  background-color: var(--palette-bg-light) !important;
+  padding: 1rem;
+}
+
+.page-layout .secondary-side h2 {
+  color: var(--palette-main-clr) !important;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
   height: auto;
   min-height: auto;
   margin-bottom: 40px;
   position: relative;
-}
-.container .content {
-  width: 70%;
-  margin: auto;
-  text-align: left;
 }
 
 .row {
@@ -175,7 +177,7 @@ th {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  min-height: 500px;
+  /* min-height: 500px; */
 }
 
 .footLog {
@@ -189,7 +191,6 @@ th {
 
 .brdCrmbTrl {
   color: var(--palette-bg-light) !important;
-  /* padding: 10px; */
   padding-left: 20px;
   margin-left: 149px;
   border-left: 1px solid white;

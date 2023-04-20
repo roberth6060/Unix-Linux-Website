@@ -1,3 +1,4 @@
+</section>
 <footer>
     <div class="brdCrmbTrl">
         <a href="#">Home</a> >
@@ -6,7 +7,6 @@
     </div>
     <div class="logo footLog">&copy; Copyright 2023, (Dys)functional</div>
 </footer>
-</div>
 </body>
 
 </html>
