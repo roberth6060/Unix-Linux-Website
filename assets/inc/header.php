@@ -68,7 +68,7 @@
                 </ul>
             </li>
             <li class="btn-gray dropdownlist">
-                <a href="./tutorials.php">Educational Materials</a>
+                <a href="./tutorials.php">Educational</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
                         <a href="#">UNIX tutorials</a>

@@ -4,10 +4,6 @@
 /** LINKED CSS FILES **/
 @import "./navbar.css";
 @import "./buttons.css";
-/* @import "./blog.css";
-@import "./blogs.css";
-@import "./about.css";
-@import "./contact.css"; */
 
 :root {
   --palette-bg-light: #ffffff;
