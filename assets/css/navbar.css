@@ -138,10 +138,27 @@ nav .dropdownlist ul ul {
 }
 
 nav .dropdownlist ul ul::before {
-  display: none;
+  position: absolute;
+  top: 8px;
+  right: -12px;
+  display: inline-block;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid var(--palette-border-clr);
+  border-left: 8px solid transparent;
+  border-bottom-color: var(--palette-border-clr);
+  content: "";
+  transform: rotate(90deg);
 }
 nav .dropdownlist ul ul::after {
-  display: none;
+  position: absolute;
+  top: 9px;
+  right: -9px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid var(--palette-bg-light);
+  border-left: 6px solid transparent;
+  content: "";
+  transform: rotate(90deg);
 }
 
 nav .dropdownlist:hover > ul {
