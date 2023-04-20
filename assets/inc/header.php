@@ -18,7 +18,6 @@
         </label>
         <ul class="menu">
             <li class="btn-gray" class="btn-gray "><a href="./index.php">Home</a></li>
-            <li class="btn-gray" class="btn-gray "><a href="#">Team</a></li>
             <li class="btn-gray">
                 <a href="./about.php">About</a>
             </li>
@@ -67,14 +66,12 @@
                     </li>
                 </ul>
             </li>
+            <li class="btn-gray" class="btn-gray "><a href="./quiz.php">Quiz</a></li>
             <li class="btn-gray dropdownlist">
-                <a href="./tutorials.php">Educational</a>
+                <a href="./tutorials.php">tutorials</a>
                 <ul class="dropdown">
                     <li class="btn-gray">
-                        <a href="#">UNIX tutorials</a>
-                    </li>
-                    <li class="btn-gray">
-                        <a href="./quiz.php">Quiz</a>
+                        <a href="./tutorials.php">UNIX tutorials</a>
                     </li>
                 </ul>
             </li>

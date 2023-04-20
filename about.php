@@ -3,8 +3,8 @@ $path = "./";
 $page = "About";
 include $path."assets/inc/header.php";
 ?>
-<div id="top" class="container">
-    <h1>About</h1>
+<h1>About</h1>
+<div class="container">
     <h2>What is Linux</h2>
     <p>Linux is a free and open source operating system (OS). A system's hardware and resources, such as the CPU,
         memory, and storage, are directly managed by an operating system, which is a piece of software. The OS
